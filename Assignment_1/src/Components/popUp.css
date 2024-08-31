@@ -1,0 +1,75 @@
+.container {
+    display: flex; 
+    width: 1200px;
+    height: 639px; 
+    
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    /* background-color: white; */
+    margin-top: 98px;
+    
+  }
+ 
+  
+  .left-box {
+    width: 760px;
+    height: 467px;
+    margin-top: 32px;
+    margin-left: 32px;
+    
+  }
+  
+  .image {
+    
+    object-fit: cover;
+    display: block;
+  }
+  
+ 
+  .right-box {
+    width: 355px; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #f8f8f8;  */
+    margin-top: 32px;
+    /* margin-left: 4rem; */
+  }
+  
+  .text-content {
+    flex: 1; /* Take available space */
+    margin-bottom: 10px; /* Space between text and button */
+  }
+  
+  .button {
+    width: 353px;
+    height: 60px;
+    background-color: rgba(254, 0, 0, 1); /* Button color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding inside button */
+    border: none; /* No border */
+   
+    cursor: pointer; /* Pointer cursor on hover */
+    align-self: flex-start; /* Align button to the left */
+    margin-top: auto; /* Push button to the bottom */
+  }
+  
+  .button:hover {
+    border: 2px solid blue; /* Darker blue on hover */
+  }
+  
+
+  .small-box {
+    width: 178px; /* Specified width */
+    height: 92px; /* Specified height */
+    overflow: hidden;
+    border: 1px solid #ccc; /* Optional border for the small boxes */
+  }
+  
+  .small-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 6px;
+  }
