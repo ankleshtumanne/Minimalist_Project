@@ -12,6 +12,7 @@ import linkedInIcon from "../assets/linkedinIcon.png"
 
 
 import frame_7 from  "../assets/Frame_7.png"
+import frame2 from  "../assets/Frame2.png"
 import cornerImage from "../assets/cornerImage.png"
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -38,12 +39,14 @@ const HomePage = () => {
       </div>
 
       <div className=' textDiv flex justify-center mt-10 md:px-10'>
+        <img className='frame2' src={frame2} alt="" />
         <div className=' text-center md:text-center'>
                 <h1 className='text-base md:text-lg lg:text-xl'>Our products are crafted exclusively from the dreams and screams of young kids who wanted to show their mastery in their </h1>
                 <h1 className='text-base md:text-lg lg:text-xl'>chosen fields, but were directed towards a factory for daily wages. Each cracker bursts brighter than their lost smiles, and can</h1>
                 <p className='ml-36 text-sm md:text-base lg:text-lg  md:ml-36'>be heard louder than their cries for miles. Buy them, burst them, brag about them.</p>
                 <p className='font-bold   md:text-base  text-center  mt-2 ' style={{marginLeft:"46px"}}>The choice is yours. Because they don’t have one.</p>
         </div>
+        <img className='fram3' src={frame2} alt="" />
       </div>
 
       <div className='flex  mt-20'>
