@@ -102,11 +102,14 @@
   /* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
   .frame2{
     margin-top: 2rem;
+    width: 118px;
+    height: 138px;
   }
   .fram3{
     margin-right: 1.5rem;
     margin-top: 2rem;
-    
+    width: 118px;
+    height: 138px;
   }
   .text-container {
     padding: 15px;
@@ -162,7 +165,10 @@
     border-bottom: 7.29px solid #ECE14C;
     border-top: 7.29px solid #ECE14C;
   }
-  
+  .textDiv{
+    width: 908px;
+    height: 139px;
+  }
   .follow-text {
     margin: 0;
     font-size: 1em;
@@ -217,9 +223,7 @@
   .about{
     width:87px ;
   }
-  .textDiv{
-
-  }
+  
   @media only screen and (min-device-width: 375px) and (max-device-width: 430px) and (-webkit-min-device-pixel-ratio: 2) {
     .navbar{
       height: 40px;
