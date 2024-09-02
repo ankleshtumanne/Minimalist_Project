@@ -12,6 +12,7 @@ import linkedInIcon from "../assets/linkedinIcon.png"
 
 
 import frame_7 from  "../assets/Frame_7.png"
+import frame_6 from  "../assets/Frame_6.png"
 import frame2 from  "../assets/Frame2.png"
 import cornerImage from "../assets/cornerImage.png"
 import { FaInstagramSquare } from "react-icons/fa";
@@ -22,9 +23,9 @@ import { FaFacebook } from "react-icons/fa6";
 import PopUp from './PopUp';
 const HomePage = () => {
   return (
-    <div className="homepage-container">
+    <div className="homepage-container" >
       
-      <div className="background-image">
+      <div className="background-image" style={{ backgroundImage: `url(${frame_6})`}}>
        
         <div className="navbar flex">
            <div className='frameImage'> <img  src={frame} alt="" /></div>
